@@ -1,0 +1,113 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+:root
+{
+    --main-bg-color: #0b132b;
+    --section-bg-color: #1c2541;
+    --desig-text-color: #3a506b;
+    --some-color: #5bc0be;
+    --highlighted-text-color: #6fffe9;
+    --text-color: #dee4f5;
+
+    --highlight-yellow: #facc43;
+    --highlight-orange: #ff928b;
+    --highlight-blue: #0094ff;
+    --highlight-green: #32db89;
+}
+
+body
+{
+    background-image: url(error_bg.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;  
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: var(--main-bg-color);
+}
+
+body a
+{
+    text-decoration: none;
+    color: var(--main-bg-color);
+    transition: color .2s linear;
+}
+
+body a:hover
+{
+    color: var(--highlighted-text-color);
+}
+
+
+.csi-logo
+{
+    width: 370px !important;    
+    padding-top: 150px;
+}
+
+.error-page {
+    height: 100vh;
+    width: auto;
+    /*z-index: -10;*/
+    text-align: center;
+}
+
+.error-bg {
+    background-image: url(/error/error_bg.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;  
+    width: auto;
+    min-height: 100vh;
+}
+
+.error-text
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 100%;
+    padding-top: 100px;
+    color: var(--text-color);
+    letter-spacing: -1px;    
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 1px;
+}
+
+.error-btn-holder { 
+    padding-top: 50px;
+}
+
+.error-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 100%;
+    padding: 15px 32px;
+    background-color: var(--section-bg-color);
+    color: var(--text-color);
+}
+
+.error-btn a {
+    display: block;
+    color: var(--text-color);
+    text-decoration: none;
+}
+.error-btn:hover {
+    color: var(--text-color);
+}
