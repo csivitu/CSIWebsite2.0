@@ -696,7 +696,7 @@ hr.separator {
 }
 
 .intro-page-bg-img {
-    background-image: url(demo-images/bg.jpg);
+    background-image: url(images/csi/CSI_background_1.jpg);
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;    
@@ -713,7 +713,7 @@ hr.separator {
 
 .csi-logo
 {
-    width: 370px !important;    
+    width: 400px !important;    
     padding-top: 150px;
 }
 
@@ -726,10 +726,22 @@ hr.separator {
     background-image:url(demo-images/CSI_logo_Light.png);
 }
 
-h1.big-title
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+}
+  
+
+p.big-title
 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 42px;
+    font-size: 2rem;
     font-weight: 500;
     line-height: 100%;
     padding-top: 100px;
@@ -1086,8 +1098,7 @@ div.pp_default .pp_loaderIcon
 .member-content-holder 
 {
     width: 300px;
-    padding: 125px 50px 50px 50px;
-    /*padding: 50px 50px 50px 50px;*/
+    padding: 48px;
     float: left;
 }
 
@@ -1117,7 +1128,9 @@ div.pp_default .pp_loaderIcon
 
 .member-image-holder img
 {
+    object-fit: cover;
     width: 100% !important;
+    height: 384px;
 }
 
 .member-name
@@ -1164,11 +1177,6 @@ div.pp_default .pp_loaderIcon
 }
 .event-name
 {
-    /*line-height: 26px;
-    font-size: 20px;
-    font-weight: 700;
-    padding-bottom: 10px;*/
-
     line-height: 30px;
     font-size: 26px;
     font-weight: 700;
@@ -1287,7 +1295,7 @@ footer
 }
 
 .error-bg {
-    background-image: url(demo-images/error_bg.jpg); 
+    background-image: url(images/csi/CSI_background_2.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;  
@@ -1340,11 +1348,9 @@ footer
     {
         min-width: 1000px;
         padding-bottom: 50px;
-        /*padding-left: 25px;
-        padding-right: 25px;*/
     }
 
-    h1.big-title
+    p.big-title
     {
         font-family: 'Montserrat', sans-serif;
         font-size: 84px;
@@ -1366,8 +1372,6 @@ footer
     {
         max-width: 80%;
         padding-bottom: 50px;
-        /*padding-left: 25px;
-        padding-right: 25px;*/
     }
 
     .content-1170 
@@ -1539,8 +1543,6 @@ footer
     {
         max-width: 80%;
         padding-bottom: 50px;
-        /*padding-left: 25px;
-        padding-right: 25px;*/
     }  
 
     .content-1170 
@@ -1738,7 +1740,7 @@ footer
     }    
 }
 
-@media screen and (min-width: 925px) {   
+@media screen and (min-width: 769px) {   
     .main-menu
     {
         display: block !important;
@@ -1749,14 +1751,12 @@ footer
     }
 }
 
-@media screen and (max-width: 925px) {  
+@media screen and (max-width: 768px) {  
 
     .csi-logo
     {
-        max-width: 80%;
+        width: 60%;
         padding-bottom: 50px;
-        /*padding-left: 25px;
-        padding-right: 25px;*/
     }
 
     .intro-page
@@ -1770,15 +1770,10 @@ footer
         z-index: 0 !important;
     }
 
-    h1.big-title
+    p.big-title
     {
-        font-size: 40px;
+        font-size: 2rem;
         padding-top: 0;
-    }
-
-    h1.big-title span 
-    {
-        display: inline;
     }
 
     .title-desc 
@@ -1855,9 +1850,6 @@ footer
 }
 
 @media screen and (max-width: 805px) {   
-
-
-
     .contact-form input[type=text], .contact-form input[type=email], .contact-form textarea, p.custom-field-class, #commentform #email, #commentform #author, #commentform #comment
     {
         width: 100% !important;
@@ -1895,8 +1887,6 @@ footer
     {
         max-width: 80%;
         padding-bottom: 50px;
-        /*padding-left: 25px;
-        padding-right: 25px;*/
     }
 
     .grid-item.p_one_half
@@ -1951,8 +1941,6 @@ footer
     {
         max-width: 80%;
         padding-bottom: 50px;
-        /*padding-left: 25px;
-        padding-right: 25px;*/
     }
 
     .p_one_half 
