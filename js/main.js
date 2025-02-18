@@ -296,8 +296,6 @@ jQuery(window).load(function () {
 
 
     jQuery('.section-title-holder').trigger("sticky_kit:recalc");
-
-    //jQuery('.doc-loader').fadeOut('fast');
     jQuery('.blub-bg').fadeOut('fast');
 });
 
