@@ -306,7 +306,7 @@ nav {
     position: fixed;
 }
 
-#header-main-menuW
+#header-main-menu
 {    
     max-width: 1170px;
     margin: 0 auto;
@@ -1876,17 +1876,10 @@ footer
     .dropbtn:hover .dropdown-content {
         display: inline;
     }
-
-    .mob-menu {
-        display: block;
-    }
-    
-    .main-menu {
-        display: none;
-    }
     
     #hamburger-icon {
         display: inline-block;
+        margin-right: 90%;
     }
 
     #hamburger-icon.open + .main-menu {
