@@ -290,17 +290,23 @@ hr.separator {
 
 /* TOP MENU */
 
+nav {
+    background-color: var(--section-bg-color);
+}
+
 .menu-wrapper
 {    
     transition: background-color .2s linear;
     z-index: 99 !important;
     background-color: var(--section-bg-color);
     width: 100% !important;
+    height: 60px !important;
+    padding-top: 4px;
     top: 0;
     position: fixed;
 }
 
-#header-main-menu
+#header-main-menuW
 {    
     max-width: 1170px;
     margin: 0 auto;
@@ -347,12 +353,6 @@ hr.separator {
     color: var(--text-color) !important;
 }
 
-/*.sm-clean li.active a
-{
-    color: var(--highlighted-text-color) !important;
-}*/
-
-
 .active #menu-about
 {
     color: var(--highlight-yellow);
@@ -368,11 +368,6 @@ hr.separator {
     color: var(--highlight-green);
 }
 
-.active #menu-home
-{
-    /*color: var(--highlight-yellow) !important;*/
-}
-
 .active #menu-contact
 {
     color: var(--highlight-yellow);
@@ -381,6 +376,44 @@ hr.separator {
 .main-menu.sm-clean a:hover 
 {
     color: var(--highlighted-text-color) !important;
+}
+
+#hamburger-icon {
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
+
+.main-menu {
+    display: none;
+}
+
+#hamburger-icon.open .bar:nth-child(1) {
+    transform: rotate(45deg);
+    position: relative;
+    top: 8px;
+}
+
+#hamburger-icon.open .bar:nth-child(2) {
+    opacity: 0;
+}
+
+#hamburger-icon.open .bar:nth-child(3) {
+    transform: rotate(-45deg);
+    position: relative;
+    bottom: 8px;
+}
+
+#hamburger-icon.open + .main-menu {
+    display: block;
 }
 
 .mob-menu
@@ -394,14 +427,11 @@ hr.separator {
     color: var(--text-color);
 }
 
-
-
 .dropdown {
     float: left;
     overflow: hidden;
 }
 
-/* Style the dropdown button to fit inside the topnav */
 .dropbtn {
     border: none;
     outline: none;
@@ -1847,6 +1877,23 @@ footer
         display: inline;
     }
 
+    .mob-menu {
+        display: block;
+    }
+    
+    .main-menu {
+        display: none;
+    }
+    
+    #hamburger-icon {
+        display: inline-block;
+    }
+
+    #hamburger-icon.open + .main-menu {
+        display: block;
+        text-align: center;
+        padding-top: 20px;
+    }
 }
 
 @media screen and (max-width: 805px) {   
