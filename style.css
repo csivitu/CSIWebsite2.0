@@ -497,6 +497,60 @@ nav {
     padding-bottom: 0;
 }
 
+.hero {
+    position: relative;
+    top: 120px;
+}
+
+/* Animated Logo Starts */
+.text-container {
+    display: inline-block;
+    padding: 1rem 0;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 200;
+    white-space: nowrap;
+    overflow: hidden;
+    width: fit-content;
+}
+
+.text-container-small {
+    display: inline-block;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 200;
+    white-space: nowrap;
+    overflow: hidden;
+    width: fit-content; 
+    z-index: 1;
+}
+
+.anim-wrapper {
+    display: block;
+    position: relative;
+    left: 1rem;
+}
+
+#triangles {
+    position: relative;
+    left: -24px;
+    height: 48px;
+}
+
+#transparent-layer {
+    border: 2px solid red;
+    position: relative;  /* Ensure positioning */
+    z-index: 10;
+}
+
+
+@keyframes blinkCursor {
+    50% { border-color: transparent; }
+}
+
+/* Animated Logo Ends */
+
+
 .section:before
 {
     content: "";
@@ -1806,6 +1860,23 @@ footer
         min-height: 0;
     }
 
+    .text-container
+    {
+        padding: 0;
+        font-size: 2rem;
+    }
+    
+    .text-container-small
+    {
+        font-size: 1.2rem;
+    }
+
+    #triangles
+    {
+        height: 28px;
+        left: -16px;
+    }
+
     .section
     {
         position: static !important;
@@ -1814,8 +1885,8 @@ footer
 
     p.big-title
     {
-        font-size: 2rem;
-        padding-top: 0;
+        font-size: 1.5rem;
+        padding-top: 4em;
     }
 
     .title-desc 
