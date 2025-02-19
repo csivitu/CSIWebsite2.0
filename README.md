@@ -1,6 +1,6 @@
 <!-- Top-Left Badges -->
 [![csivit][csivitu-shield]][csivitu-url]
-[![All Contributors](https://img.shields.io/badge/contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/contributors-15-orange.svg?style=flat-square)](#contributors-)
 [![Issues][issues-shield]][issues-url]
 
 <!-- PROJECT LOGO -->
