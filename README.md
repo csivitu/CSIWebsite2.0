@@ -44,69 +44,85 @@
   <tr>
     <td align="center">
         <a href="https://github.com/shaarangg">
-            <img src="https://github.com/shaarangg.png" width="60px;" alt=""/><br/>
+            <img src="https://github.com/shaarangg.png" height="60px" style="object-fit: cover" alt=""/><br/>
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/namsnath">
-            <img src="https://github.com/namsnath.png" width="60px;" alt=""/><br/>
+            <img src="https://github.com/namsnath.png" height="60px" style="object-fit: cover" alt=""/><br/>
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/roerohan">
-            <img src="https://github.com/roerohan.png" width="60px;" alt=""/><br/>
+            <img src="https://github.com/roerohan.png" height="60px" style="object-fit: cover" alt=""/><br/>
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/anubhav-aryan">
-            <img src="https://github.com/anubhav-aryan.png" width="60px;" alt=""/><br/>
+            <img src="https://github.com/anubhav-aryan.png" height="60px" style="object-fit: cover" alt=""/><br/>
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/alias-rahil">
-            <img src="https://github.com/alias-rahil.png" width="60px;" alt=""/><br/>
+            <img src="https://github.com/alias-rahil.png" height="60px" style="object-fit: cover" alt=""/><br/>
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/thebongy">
-            <img src="https://github.com/thebongy.png" width="60px;" alt=""/><br/>
+            <img src="https://github.com/thebongy.png" height="60px" style="object-fit: cover" alt=""/><br/>
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/pranshupranjal">
-            <img src="https://github.com/pranshupranjal.png" width="60px;" alt=""/><br/>
+            <img src="https://github.com/pranshupranjal.png" height="60px" style="object-fit: cover" alt=""/><br/>
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/theProgrammerDavid">
-            <img src="https://github.com/theProgrammerDavid.png" width="60px;" alt=""/><br/>
+            <img src="https://github.com/theProgrammerDavid.png" height="60px" style="object-fit: cover" alt=""/><br/>
         </a>
     </td>
   </tr>
   <tr>
     <td align="center">
-        <a href="https://github.com/shaarangg">shaarang</a>
+        <div style="width: 72px">
+            <a href="https://github.com/shaarangg">shaarang</a>
+        </div>
     </td>
     <td align="center">
-        <a href="https://github.com/namsnath">namit</a>
+        <div style="width: 72px">
+            <a href="https://github.com/namsnath">namit</a>
+        </div>
     </td>
     <td align="center">
-        <a href="https://github.com/roerohan">rohan</a>
+        <div style="width: 72px">
+            <a href="https://github.com/roerohan">rohan</a>
+        </div>
     </td>
     <td align="center">
-        <a href="https://github.com/anubhav-aryan">anubhav</a>
+        <div style="width: 72px">
+            <a href="https://github.com/anubhav-aryan">anubhav</a>
+        </div>
     </td>
     <td align="center">
-        <a href="https://github.com/anubhav-aryan">rahil</a>
+        <div style="width: 72px">
+            <a href="https://github.com/anubhav-aryan">rahil</a>
+        </div>
     </td>
     <td align="center">
-        <a href="https://github.com/alias-rahil">rishit</a>
+        <div style="width: 72px">
+            <a href="https://github.com/alias-rahil">rishit</a>
+        </div>
     </td>
     <td align="center">
-        <a href="https://github.com/pranshupranjal">pranshu</a>
+        <div style="width: 72px">
+            <a href="https://github.com/pranshupranjal">pranshu</a>
+        </div>
     </td>
     <td align="center">
-        <a href="https://github.com/theProgrammerDavid">david</a>
+        <div style="width: 72px">
+            <a href="https://github.com/theProgrammerDavid">david</a>
+        </div>
     </td>
   </tr>
 </table>
@@ -115,53 +131,65 @@
   <tr>
     <td align="center">
         <a href="https://github.com/Subham-Panda">
-            <img src="https://github.com/Subham-Panda.png" width="60px;" alt=""/><br/>
+            <img src="https://github.com/Subham-Panda.png" height="60px" style="object-fit: cover" alt=""/><br/>
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/ashikka">
-            <img src="https://github.com/ashikka.png" width="60px;" alt=""/><br/>
+            <img src="https://github.com/ashikka.png" height="60px" style="object-fit: cover" alt=""/><br/>
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/rakeshprask">
-            <img src="https://github.com/rakeshprask.png" width="60px;" alt=""/><br/>
+            <img src="https://github.com/rakeshprask.png" height="60px" style="object-fit: cover" alt=""/><br/>
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/Shiv10">
-            <img src="https://github.com/Shiv10.png" width="60px;" alt=""/><br/>
+            <img src="https://github.com/Shiv10.png" height="60px" style="object-fit: cover" alt=""/><br/>
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/sanjaybaskaran01">
-            <img src="https://github.com/sanjaybaskaran01.png" width="60px;" alt=""/><br/>
+            <img src="https://github.com/sanjaybaskaran01.png" height="60px" style="object-fit: cover" alt=""/><br/>
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/v1br">
-            <img src="https://github.com/v1br.png" width="60px;" alt=""/><br/>
+            <img src="https://github.com/v1br.png" height="60px" style="object-fit: cover" alt=""/><br/>
         </a>
     </td>
   </tr>
   <tr>
     <td align="center">
-        <a href="https://github.com/shaarangg">subham</a>
+        <div style="width: 72px">
+            <a href="https://github.com/shaarangg">subham</a>
+        </div>
     </td>
     <td align="center">
-        <a href="https://github.com/namsnath">ashikka</a>
+        <div style="width: 72px">
+            <a href="https://github.com/namsnath">ashikka</a>
+        </div>
     </td>
     <td align="center">
-        <a href="https://github.com/roerohan">rakesh</a>
+        <div style="width: 72px">
+            <a href="https://github.com/roerohan">rakesh</a>
+        </div>
     </td>
     <td align="center">
-        <a href="https://github.com/anubhav-aryan">shivansh</a>
+        <div style="width: 72px">
+            <a href="https://github.com/anubhav-aryan">shivansh</a>
+        </div>
     </td>
     <td align="center">
-        <a href="https://github.com/anubhav-aryan">sanjay</a>
+        <div style="width: 72px">
+            <a href="https://github.com/anubhav-aryan">sanjay</a>
+        </div>
     </td>
     <td align="center">
-        <a href="https://github.com/alias-rahil">vibhor</a>
+        <div style="width: 72px">
+            <a href="https://github.com/alias-rahil">vibhor</a>
+        </div>
     </td>
   </tr>
 </table>
