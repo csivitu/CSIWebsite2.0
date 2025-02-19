@@ -167,7 +167,7 @@
 </table>
 
 
-Contributions of any kind welcome!
+Contributions of any kind are welcome!
 
 <!-- Links to badges, don't remove! -->
 [csivitu-shield]: https://img.shields.io/badge/csivitu-csivitu-blue
