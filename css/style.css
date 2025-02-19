@@ -800,8 +800,8 @@ nav {
 }
 
 .intro-page-bg-img {
-    background-image: url(images/csi/CSI_background_1.jpg);
-    background-size:     cover;                      /* <------ */
+    background-image: url(../images/csi/CSI_background_1.jpg);
+    background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;    
     z-index: 10;
