@@ -1,7 +1,7 @@
-<!-- Top-Left Badges -->
-[![csivit][csivitu-shield]][csivitu-url]
-[![All Contributors](https://img.shields.io/badge/contributors-15-orange.svg?style=flat-square)](#contributors-)
-[![Issues][issues-shield]][issues-url]
+<!-- Shields.io badges, don't change manually -->
+![CSIVITU](https://img.shields.io/badge/csivitu-csivitu-orange)
+![GitHub Contributors](https://img.shields.io/github/contributors/csivitu/CSIWebsite2\.0?style=flat-square&color=blue)
+![GitHub issues](https://img.shields.io/github/issues/csivitu/CSIWebsite2\.0?style=flat-square&color=lime)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -168,9 +168,3 @@
 
 
 Contributions of any kind are welcome!
-
-<!-- Links to badges, don't remove! -->
-[csivitu-shield]: https://img.shields.io/badge/csivitu-csivitu-blue
-[csivitu-url]: https://csivit.com
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/csivitu/CSIWebsite2.0/issues
