@@ -1,4 +1,4 @@
-const words = ["Computer", "Chaos", "Candid", "Clever", "Cool", "Crazy", "Charismatic", "Cheerful", "Clickbait", "Computer"];
+const words = ["Chaos", "Candid", "Clever", "Cool", "Crazy", "Charismatic", "Cheerful", "Clickbait", "Computer"];
 let index = 0;
 let charIndex = 0;
 let isDeleting = false;
@@ -8,6 +8,7 @@ function typeEffect() {
     const currentWord = words[index];
     if (!isDeleting) {
         typingElement.textContent = currentWord.substring(0, charIndex);
+        if (charIndex <= words[index].length-1) typingElement.textContent += '_';
         charIndex++;
         if (charIndex > currentWord.length) {
             isDeleting = true;
@@ -16,13 +17,14 @@ function typeEffect() {
         }
     } else {
         typingElement.textContent = currentWord.substring(0, charIndex);
+        if (charIndex <= words[index].length-1) typingElement.textContent += '_';
         charIndex--;
         if (charIndex === 1) {
             isDeleting = false;
             index = (index + 1) % words.length;
         }
     }
-
+    
     if (index == words.length-1 && isDeleting) {
         return;
     }
