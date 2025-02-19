@@ -882,7 +882,12 @@ p.big-title
 
 
 
-/* SERVICE SECTION */
+/* ABOUT SECTION */
+
+.large-space-here
+{
+    height: 320px;
+}
 
 #about
 {

@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const targetPosition = targetElement.offsetTop - 54;
             const startPosition = window.scrollY;
             const distance = targetPosition - startPosition;
-            const duration = 3200;
+            const duration = 1600;
             const startTime = performance.now();
     
             function scrollStep(currentTime) {
