@@ -7,7 +7,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/csivitu">
-    <img src="https://csivit.com/images/icons/favicon.png" alt="Logo" width="80">
+    <img src="https://csivit.com/images/favicon.png" alt="Logo" width="80">
   </a>
 
   <h3 align="center">CSI Website</h3>
