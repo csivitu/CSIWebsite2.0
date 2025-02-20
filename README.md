@@ -1,13 +1,13 @@
 <!-- Shields.io badges, don't change manually -->
 ![CSIVITU](https://img.shields.io/badge/csivitu-csivitu-orange)
-![GitHub Contributors](https://img.shields.io/github/contributors/csivitu/CSIWebsite2\.0?style=flat-square&color=blue)
-![GitHub issues](https://img.shields.io/github/issues/csivitu/CSIWebsite2\.0?style=flat-square&color=lime)
+![GitHub issues](https://img.shields.io/github/issues/csivitu/CSIWebsite2\.0?style=flat-square&color=blue)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/csivitu/CSIWebsite2\.0?style=flat-squared&color=lime)
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/csivitu">
-    <img src="https://csivit.com/images/favicon.png" alt="Logo" width="80">
+    <img src="https://csivit.com/images/icons/favicon.png" alt="Logo" width="80">
   </a>
 
   <h3 align="center">CSI Website</h3>
