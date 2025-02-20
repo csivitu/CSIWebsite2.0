@@ -15,6 +15,7 @@ html, body {
 :root
 {
     --main-bg-color: #0b132b;
+    --hero-section-color: #131840;
     --section-bg-color: #1c2541;
     --desig-text-color: #3a506b;
     --some-color: #5bc0be;
@@ -211,12 +212,8 @@ hr.separator {
     right: 0;
     bottom: 0;
     margin: auto;
-/*
-
-  margin: 80px auto;
-  position: relative;*/
-  width: 150px;
-  height: 150px;
+    width: 150px;
+    height: 150px;
 }
 .blub-1,
 .blub-2,
@@ -498,11 +495,6 @@ nav {
     padding-bottom: 0;
 }
 
-.hero {
-    position: relative;
-    top: 120px;
-}
-
 /* Animated Logo Starts */
 .text-container {
     display: inline-block;
@@ -513,22 +505,6 @@ nav {
     white-space: nowrap;
     overflow: hidden;
     width: fit-content;
-}
-
-.text-container-small {
-    display: inline-block;
-    color: #fff;
-    font-size: 2rem;
-    font-weight: 200;
-    white-space: nowrap;
-    overflow: hidden;
-    width: fit-content; 
-}
-
-.anim-wrapper {
-    display: block;
-    position: relative;
-    left: 1rem;
 }
 
 #triangles {
@@ -707,23 +683,6 @@ nav {
 /* HOME SECTION */
 
 .arrow {
-    /*box-sizing: border-box;
-    height: 50px;
-    width: 50px;
-    border-style: solid;
-    border-color: white;
-    border-width: 0px 2px 2px 0px;
-    transform: rotate(45deg);
-    transition: border-width 150ms ease-in-out;
-    text-align: center;
-
-    padding-right: 20px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 20px;
-    margin: 0 auto;*/
-
     position: absolute;
     bottom: 5vh;
     left: 50%;
@@ -786,27 +745,19 @@ nav {
 
 .intro-page 
 {
-    /*min-height: 90vh;*/
-    min-height: 100vh;
+    height: 100vh;
     padding-bottom: 0px;
-    /*padding-bottom: 170px;
-    min-height: calc(100vh - 170px);*/
-    background-color: #0b132b; 
-    /*background-image:url(demo-images/background_img_01b.jpg);*/ 
-    /*background-repeat: repeat; 
-    background-position: center top; 
-    background-size: cover;*/
+    background-color: var(--main-bg-color); 
     z-index: 10;
 }
 
-.intro-page-bg-img {
-    background-image: url(../images/csi/CSI_background_1.jpg);
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;    
-    z-index: 10;
+.hero-section
+{
+    position: relative;
+    display: inline-block;
     width: 100%;
-    height: auto;
+    height: 100%;
+    background-color: var(--hero-section-color); 
 }
 
 .top-logo
@@ -839,26 +790,6 @@ nav {
     border: 0;
     clip: rect(0, 0, 0, 0);
     overflow: hidden;
-}
-  
-
-p.big-title
-{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 100%;
-    padding-top: 100px;
-    color: var(--text-color);
-    letter-spacing: -1px;    
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.big-title span 
-{
-    display: block;
 }
 
 .title-desc
