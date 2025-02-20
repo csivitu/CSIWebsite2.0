@@ -1,4 +1,4 @@
-const words = ["Chaos", "Crazy", "Cheerful", "Computer"];
+const words = ["haos", "razy", "heerful", "omputer"];
 let index = 0;
 let charIndex = 0;
 let isDeleting = false;
@@ -19,7 +19,7 @@ function typeEffect() {
         typingElement.textContent = currentWord.substring(0, charIndex);
         if (charIndex <= words[index].length-1) typingElement.textContent += '_';
         charIndex--;
-        if (charIndex === 1) {
+        if (charIndex === 0) {
             isDeleting = false;
             index = (index + 1) % words.length;
         }
