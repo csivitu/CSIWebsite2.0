@@ -40,3 +40,4 @@
     Thanks goes to these wonderful people. Contributions of any kind are welcome!
 </p>
 
+<a href='https://github.com/vibhorag2003'><img src='https://github.com/vibhorag2003.png' width='50px' /></a>
