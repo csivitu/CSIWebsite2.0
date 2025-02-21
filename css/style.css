@@ -315,7 +315,7 @@ nav {
 
 .main-menu.sm-clean
 {
-    background-color: transparent;    
+    background-color: transparent;
 }
 
 .main-menu.sm-clean a
@@ -1851,6 +1851,8 @@ footer
 
     .main-menu
     {
+        background-color: var(--section-bg-color);    
+        height: fit-content;
         float: none;
         margin: 0 auto;
         text-align: center;
