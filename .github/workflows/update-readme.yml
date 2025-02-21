@@ -25,7 +25,7 @@ jobs:
         run: |
           if ! grep -q "${{ env.USERNAME }}" README.md; then
             echo "Adding new contributor: ${{ env.AUTHOR }}"
-            echo "<a href='https://github.com/${{ env.USERNAME }}'><img src='https://github.com/${{ env.USERNAME }}.png' width='50px' /></a>" >> README.md
+            echo "<a href='https://github.com/${{ env.USERNAME }}'><img src='https://github.com/${{ env.USERNAME }}.png' height='50px' /><span>&nbsp;&nbsp;</span></a>" >> README.md
           fi
 
       - name: Commit and push changes
