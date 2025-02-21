@@ -315,7 +315,8 @@ nav {
 
 .main-menu.sm-clean
 {
-    background-color: transparent;    
+    background-color: var(--section-bg-color);    
+    height: fit-content;
 }
 
 .main-menu.sm-clean a
