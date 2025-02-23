@@ -1,0 +1,173 @@
+/* FOREGROUND BEGINS HERE */
+.hero-foreground
+{
+    z-index: 10;
+}
+
+.anim-box,.text-box
+{
+    z-index: inherit;
+}
+
+.anim-wrapper 
+{
+    display: block;
+    position: relative;
+    left: 1rem;
+    z-index: inherit;
+}
+
+.text-container-small {
+    display: block;
+    position: relative;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 200;
+    z-index: inherit;
+}
+
+p.big-title
+{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 100%;
+    padding-top: 100px;
+    color: var(--text-color);
+    letter-spacing: -1px;    
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+}
+
+.big-title span 
+{
+    display: block;
+}
+/* FOREGROUND ENDS HERE */
+
+
+/* BACKDROP BEGINS HERE */
+.hero-backdrop
+{
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.shaders {
+    position: absolute;
+    top: 0;
+    left: -3em;
+    z-index: 0;
+}
+
+.cross-1
+{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    height: 32px;
+    transform: rotate(12deg);
+}
+
+.cross-2
+{
+    position: absolute;
+    top: 200px;
+    left: 16px;
+    height: 20px;
+}
+
+.triangle-1
+{
+    position: absolute;
+    top: 320px;
+    left: 16px;
+    height: 180px;
+    transform: rotate(32deg);
+}
+
+.circle-1
+{
+    position: absolute;
+    top: -16px;
+    right: -48px;
+    height: 320px;
+}
+
+.line-1
+{
+    position: absolute;
+    bottom: 40px;
+    right: 60px;
+    height: 3px;
+}
+
+@media screen and (max-width: 768px) {   
+    .cross-1
+    {
+        top: 150px;
+        left: 150px;
+    }
+
+    .circle-1
+    {
+        top: -80px;
+        right: -120px;
+    }
+
+    .triangle-1
+    {
+        top: 360px;
+        left: 0px;
+    }
+
+    .line-1
+    {
+        right: 20px;
+    }
+}
+@media screen and (max-width: 426px) {   
+    .cross-1,.cross-2,.line-1
+    {
+        display: none;
+    }
+
+    .circle-1
+    {
+        top: -160px;
+        right: -180px;
+    }
+
+    .triangle-1
+    {
+        top: 520px;
+        left: -60px;
+        transform: rotate(-12deg);
+    }
+}
+/* BACKDROP ENDS HERE */
+
+
+/* 
+OLD VERSION - USING STATIC IMAGE
+DO NOT REMOVE, THIS IS HERE FOR REFERENCE
+USE THIS IN CASE ANIMATION BREAKS
+
+.intro-page-bg-img {
+    background-image: url(../images/csi/CSI_background_1.jpg);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;    
+    z-index: 10;
+    width: 100%;
+    height: auto;
+} */
