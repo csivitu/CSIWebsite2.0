@@ -1,0 +1,18 @@
+{
+  "name": "csiweb",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "check" : "bun --version",
+    "convert-images" : "bun scripts/convert-to-webp.js"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
