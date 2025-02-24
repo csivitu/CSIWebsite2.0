@@ -62,7 +62,27 @@
     const waitForGSAP = setInterval(() => {
         if (window.gsap && window.Draggable) {
             clearInterval(waitForGSAP);
+
+            // Apply floating animation
+            const elements = document.querySelectorAll(".draggable");
+            elements.forEach((el) => {
+                gsap.to(el, {
+                    y: "random(-15, 15)",  // Subtle floating motion
+                    x: "random(-10, 10)",  // Slight side-to-side motion
+                    duration: 3,
+                    repeat: -1,
+                    yoyo: true,
+                    ease: "sine.inOut"
+                });
+            });
+
+            // Enable drag functionality
             Draggable.create(".draggable", {
+                inertia: true,   // Smooth dragging experience
+                bounds: "body",  // Keeps elements within screen
+                edgeResistance: 0.7, // Adds slight resistance to dragging
+                type: "x,y",    // Allows movement in all directions
+                cursor: "grab",
             });
         }
     }, 100);
