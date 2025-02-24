@@ -36,25 +36,39 @@
 // })();
 
 
-// Floating animation
-// (function floatElements() {
-//     gsap.to(".cross-1", {
+// Swimming Animation
+function animateSwimming(selector, moveRange = 10, rotateRange = 4) {
+    const elements = document.querySelectorAll(selector);
     
-//     });
-    
-//     gsap.to(".circle-1", {
-    
-//     });
-    
-//     gsap.to(".line-1", {
-    
-//     });
-    
-//     gsap.to(".triangle-1", {
-    
-//     });
+    if (elements.length === 0) {
+        console.error(`No elements found for selector '${selector}'!`);
+        return;
+    }
 
-// })();
+    elements.forEach((el) => {
+        function swim() {
+            gsap.to(el, {
+                x: () => gsap.utils.random(-moveRange, moveRange),
+                y: () => gsap.utils.random(-moveRange, moveRange),
+                duration: gsap.utils.random(2, 5),
+                ease: "sine.inOut",
+                onComplete: swim
+            });
+        }
+
+        function rotate() {
+            gsap.to(el, {
+                rotation: () => gsap.utils.random(0, rotateRange),
+                duration: gsap.utils.random(2, 5),
+                ease: "sine.inOut",
+                onComplete: rotate
+            });
+        }
+
+        swim();
+        rotate();
+    });
+}
 
 
 // Drag and drop animation
@@ -64,22 +78,15 @@
             clearInterval(waitForGSAP);
 
             // Apply floating animation
-            const elements = document.querySelectorAll(".draggable");
-            elements.forEach((el) => {
-                gsap.to(el, {
-                    y: "random(-15, 15)",  // Subtle floating motion
-                    x: "random(-10, 10)",  // Slight side-to-side motion
-                    duration: 3,
-                    repeat: -1,
-                    yoyo: true,
-                    ease: "sine.inOut"
-                });
-            });
+            animateSwimming(".cross-1", 20, 10);
+            animateSwimming(".line-1", 20, 10);
+            animateSwimming(".circle-1", 10, 0);
+            animateSwimming(".triangle-1", 10, 10);
+
 
             // Enable drag functionality
             Draggable.create(".draggable", {
                 inertia: true,   // Smooth dragging experience
-                bounds: "body",  // Keeps elements within screen
                 edgeResistance: 0.7, // Adds slight resistance to dragging
                 type: "x,y",    // Allows movement in all directions
                 cursor: "grab",
