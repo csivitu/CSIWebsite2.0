@@ -11,7 +11,7 @@
   },
   "scripts": {
     "start": "npx open-cli web/index.html",
-    "deploy": "git subtree push --prefix web origin gh-pages",
+    "host": "git subtree push --prefix web origin gh-pages",
     "convert-images": "bun scripts/convert-to-webp.js"
   },
   "type": "module"
